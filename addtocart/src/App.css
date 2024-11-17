@@ -1,0 +1,405 @@
+
+.divclass{
+  height: 30px;
+  width: 190px;
+  border: 1px solid;
+}
+.myclass {
+  /* height: 400px;
+  width: 700px;
+  margin-left: 200px;
+  border: 1px solid black; */
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid black;
+  position: absolute;
+  
+
+}
+.containers{
+  height: 400px;
+  width: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 300px;
+  position: absolute;
+   position: relative;
+   /* flex-direction: column; */
+}
+.content{
+  display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+}
+.curso{
+  height: 30px;
+  width: 80px;
+  background-color: rgb(82, 81, 81);
+  z-index: 1;
+  position: relative;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .first{
+  position: relative;
+  margin-right: 0px;
+  float: left;
+}
+.second{
+
+} */
+ .main{
+  height: 300px;
+  width: 80%;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color:rgb(113, 109, 109);
+  color: white;
+  border-radius: 20px;
+  border: 1px solid;
+  display: flex;
+ }
+ .image{
+  top: 0;
+  height: 100%;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: relative;
+ }
+ img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+ }
+ .detail
+ {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 2%;
+  padding: 10px;
+  overflow: scroll;
+  scrollbar-width: none;
+  
+ }
+ .circle{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+  
+ }
+ /* .id{
+  float: right;
+margin-top: 0%;
+font-size: 20px;
+margin-right: 20px;
+
+ } */
+ 
+ .box{
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 50px;
+  position: relative;
+  
+  
+  
+ }
+ /* body{
+  background-color: #282c34;
+ } */
+ .key{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: none;
+  background-color: #464c57f7;
+  color:#ffff;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+
+ }
+ .input{
+  height: 78px;
+  width: 100%;
+  position: absolute;
+  position: relative;
+  margin-top: 50%;
+  color: white;
+  font-size: 60px;
+  text-align: end;
+   overflow: hidden;
+  
+ }
+ button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ .but{
+  
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  position: absolute;
+  position: relative;
+
+ }
+ .zero{
+  margin-top: 5px;
+  height: 50px;
+  width: 115px;
+  border-radius: 50px;
+  background-color: #464c57f7;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+
+ }
+ .but2{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 8px;
+  position: absolute;
+  margin-left: 15px;
+
+ }
+ .maindiv{
+  height: 400px;
+  width:320px;
+  margin: auto;
+  margin-top: 50px;
+
+ }
+ .progresscontainer{
+  height: 10px;
+  width: 100%;
+  border: 1px solid rgb(133, 127, 127);
+  margin-top: 20px;
+ }
+ .strength{
+  height: 100%;
+  max-width: 100%;
+ }
+
+ /* This is css for addtocart */
+
+ .addcontainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  width: 100%;
+  
+ 
+ }
+ .main-add{
+  height: 350px;
+  width: 270px;
+  border: 1px solid;
+  border-radius: 10px;
+  position: relative;
+  user-select: none;
+  background-color: #ffff;
+  margin: auto;
+  margin-top: 70px; 
+  
+ }
+ .picture{
+  height: 190px;
+  width: 100%;
+  position: absolute;
+  position: relative;
+ }
+ .clothimage{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+  background-size: cover;
+
+ }
+ .detailcart{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ }
+ .addtocartbtn{
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: black;
+  color: #ffff;
+
+ }
+  .addtocartbtn:active{
+  background-color: transparent;
+  border: 1px solid;
+  color: black;
+ } 
+  
+ body{
+  background-color: black;
+ }
+ .addcartdiv{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left:700px;
+  
+ }
+
+ .count{
+  height: 19px;
+  width: 19px ;
+  border-radius: 50%;
+  margin-top: 0%;
+  position: absolute;
+  margin-left: 22px;
+  background-color:#DC143C;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: serif;
+
+ }
+ 
+ .addcartimg{
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 7px;
+  
+ }
+ /* addtocart css */
+ .containerforaddproduct{
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .allproductcart{
+  height: auto;
+  width: 70%;
+  margin-top: 80px;
+  margin-left: 70px;
+  position: absolute;
+  color: #ffff;
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+  
+
+ }
+ .cartdetail{
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  border-top:  1px solid white;
+ }
+ .productimage{
+  height: 80px;
+  width: 140px;
+  
+  margin-left: 10px;
+  position: relative;
+ 
+ }
+ .cimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+ }
+ .proprice{
+  height: 100%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  
+  
+ }
+ .optional{
+  height: 100%;
+  width: 450px;
+  display: flex;
+  align-items: center;
+ 
+ }
+
+  .prototal{
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    word-spacing: 50px;
+   
+  
+   }
+   .totalamt{
+    display: flex;
+    width: 70%;
+    font-size: 30px;
+    font-family: serif;
+    color: #ffff;
+    margin-left: 70px;
+    border-top:  2px solid yellow;
+    border-bottom: 2px solid yellow;
+   }
+  
+ 
+
+.navbar{
+  background-color: #ffff;
+  z-index: 1;
+}
